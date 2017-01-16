@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Lernen für Klausuren</title>
+
+	<link rel="stylesheet" href="files/css/reveal.css">
+	<link rel="stylesheet" href="files/css/theme/solarized.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="files/lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/files/print - pdf / gi) ? 'files/css/print/pdf.css' : 'files/css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section>
+	<h3>Lernen für Klausuren</h3>
+	<section data-markdown>
+		<script type="text/template">
+Herzlichen Glückwünsch. Wenn du dies ließt, dann schreibst du in den nächsten Monaten ein paar Klausuren
+</script>
+	</section>
+	<section data-markdown>
+	<script type="text/template">
+Navigation:
+
+ * → Nächstes Kapitel
+ * ← Letzter Kapitel
+ * ↓ nächste Folie im Kapitel <!-- .element: class="fragment" data-fragment-index="3" -->
+ * ↑ letzte Fole im Kapitel <!-- .element: class="fragment" data-fragment-index="3" -->
+ * [esc] Übersicht<!-- .element: class="fragment" data-fragment-index="4" -->
+		</script>
+	</section>
+</section>
+<section>
+	<h3> Zeitplan </h3>
+	<section data-markdown>
+		<script type="text/template"># ↓
+(Es gibt hier Unterfolien)
+		</script>
+	</section>
+	<section data-markdown>
+		<script type="text/template">
+			mindestens 1 Monat vor der Klausur:
+			* Anmelden auf studium.kit.edu
+			* Resourcen beschafften
+				* Altklausuren beschaffen:
+					* Internet (todo: links einfügen)
+					* Fachschaft für Informatik (Keller vom Infobau)
+				* Folien/Skripte/Bücher
+			* Überblick über Inhalt machen
+		</script>
+	</section>
+	<section data-markdown>
+		<script type="text/template">
+			mindestens 2 Wochen vor der Klausur:
+			* (ggf. Lerngruppe bescheid geben, dass man anfangen sollte.)
+			* Inhalt überfliegen:
+				* Skript überfliegen
+				* Folien durchblätter
+				* Bilder anschauen
+			* alte Klausuraufgaben langsam durcharbeiten
+			* Bei Schwierigkeiten
+				* In Lerngruppe ansprechen
+				* Entsprechende Aufgabe in den Übungsblättern suchen und Musterlösung anschauen.
+				* Entsprechendes Kapitel in Skript/Folien/Mitschrieb/Tutorium durchlesen.
+				* Danach die Information aufschreiben, die man zum lösen der Aufgabe gebraucht hätte
+		</script>
+	</section>
+	<section data-markdown>
+		<script type="text/template">
+			Der Tag vor der Klausur:
+			* Entspannen!
+			* Ausschlafen!
+			* Essen, Trinken!
+			* Ort/Uhrtzeit und Ankündigungen nochmal anschauen
+			* Hörsaal raussuchen (i.d.R. finden Klausuren in mehreren Höhrsälen auf einmal statt. Die Einteilung richtet sich nach Matrikelnummer)
+			* Nichts neues mehr lernen (Was du bis jetzt nich verstanden hast, wirst du bis morgen auch nicht mehr verstehen.)
+			* ggf. Notizen durchlesen
+
+		</script>
+	</section>
+	<section data-markdown>
+		<script type="text/template">
+			Der Tag der Klausur
+			* unbedingt ausschlafen
+			* 2 Bahnen früher losfahren
+				* Solltest du wieder erwarten zu früh da sein: Notizen anschauen, Kaffee trinken
+			* In die Klausur einen Kaffee mitbringen:
+				* Während die Klausur ausgeteilt wird hast du Zeit Kaffee zu trinken und Traubenzucker zu essen.
+		</script>
+	</section>
+</section>
+</div>
+</div>
+
+<script src="files/lib/js/head.min.js"></script>
+<script src="files/js/reveal.js"></script>
+<script>
+	// More info https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		history: true,
+
+		parallaxBackgroundImage: 'files/smilea.jpg',
+		parallaxBackgroundSize: '2560px 1440px',
+
+		// More info https://github.com/hakimel/reveal.js#dependencies
+		dependencies: [{
+				src: 'files/plugin/markdown/marked.js'
+			}, {
+				src: 'files/plugin/markdown/markdown.js'
+			}, {
+				src: 'files/plugin/notes/notes.js',
+				async: true
+			}, {
+				src: 'files/plugin/highlight/highlight.js',
+				async: true,
+				callback: function() {
+					hljs.initHighlightingOnLoad();
+				}
+			},
+
+			// Zoom in and out with Alt+click
+			{
+				src: 'files/plugin/zoom-js/zoom.js',
+				async: true
+			},
+			// MathJax
+			{
+				src: 'files/plugin/math/math.js',
+				async: true
+			}
+		],
+
+		math: {
+			mathjax: 'MathJax-2.6-latest/MathJax.js',
+			config: 'TeX-AMS_HTML-full'
+		},
+	});
+</script>
+</body>
+</html>
