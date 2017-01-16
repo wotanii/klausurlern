@@ -6,8 +6,4 @@ Download für offline: https://github.com/wotanii/klausurlern/archive/master.zip
 
 # git auschecken
 
-    git init
-    git add README.md
-    git commit -m "first commit"
-    git remote add origin https://github.com/wotanii/klausurlern.git
-    git push -u origin master
+    git clone https://github.com/wotanii/klausurlern.git
